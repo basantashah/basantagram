@@ -24,7 +24,7 @@ class Main extends Component {
     render() {
         return <div>
             <Title title={'Basantagram'} />
-            <PhotoWall/>
+            <PhotoWall posts={posts}/>
         </div>
     }
 }
